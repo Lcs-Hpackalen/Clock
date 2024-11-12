@@ -11,8 +11,11 @@ struct WorldClockView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                ExtractedView(Time: "12:00", AmPm: "PM", City: "Toronto", Difference: "+ 0:00hrs")
-               
+                CityView(Time: "12:00", AmPm: "PM", City: "Toronto", Difference: "+ 0:00hrs")
+                CityView(Time: "7:00", AmPm: "PM", City: "Helsinki", Difference: "+ 7:00hrs")
+                CityView(Time: "5:00", AmPm: "PM", City: "London", Difference: "+ 5:00hrs")
+                CityView(Time: "10:00", AmPm: "AM", City: "Edmonton", Difference: "- 2:00hrs")
+                CityView(Time: "6:00", AmPm: "PM", City: "Amsterdam", Difference: "+ 6:00hrs")
             }
             .navigationTitle("World Clock")
             .toolbar {
@@ -39,36 +42,7 @@ struct WorldClockView: View {
 
 }
 
-struct ExtractedView: View {
-    //Mark: Stored properties
-    var Time: String
-    var AmPm: String
-    var City: String
-    var Difference: String
-    
-    
-    //Mark: computed properties
-    var body: some View {
-        //Toronto
-        HStack{
-            
-            VStack{
-                Text (Difference)
-                Text (City)
-                    .font(.system(.largeTitle, design: .default, weight: .none))
-            }
-            
-            Spacer()
-            
-            Text(Time)
-                .font(.system(size: 64.0, weight: .thin, design: .default))
-            Text(AmPm)
-                .font(.system(size: 50.0, weight: .thin, design: .default))
-            
-            
-        }
-    }
-}
+
 
 #Preview {
     LandingView()

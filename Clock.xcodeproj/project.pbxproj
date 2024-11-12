@@ -14,6 +14,7 @@
 		F47949692CE2701000ACD257 /* WorldClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47949682CE2701000ACD257 /* WorldClockView.swift */; };
 		F479496B2CE2702A00ACD257 /* AlarmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F479496A2CE2702A00ACD257 /* AlarmsView.swift */; };
 		F479496D2CE2703A00ACD257 /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F479496C2CE2703A00ACD257 /* StopwatchView.swift */; };
+		F4C79FA42CE3E92900A80D65 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C79FA32CE3E92900A80D65 /* CityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		F47949682CE2701000ACD257 /* WorldClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockView.swift; sourceTree = "<group>"; };
 		F479496A2CE2702A00ACD257 /* AlarmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmsView.swift; sourceTree = "<group>"; };
 		F479496C2CE2703A00ACD257 /* StopwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchView.swift; sourceTree = "<group>"; };
+		F4C79FA32CE3E92900A80D65 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			children = (
 				F47949612CE26EE600ACD257 /* LandingView.swift */,
 				F47949682CE2701000ACD257 /* WorldClockView.swift */,
+				F4C79FA32CE3E92900A80D65 /* CityView.swift */,
 				F479496A2CE2702A00ACD257 /* AlarmsView.swift */,
 				F479496C2CE2703A00ACD257 /* StopwatchView.swift */,
 			);
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F47949652CE26EE600ACD257 /* ClockApp.swift in Sources */,
+				F4C79FA42CE3E92900A80D65 /* CityView.swift in Sources */,
 				F47949692CE2701000ACD257 /* WorldClockView.swift in Sources */,
 				F479496B2CE2702A00ACD257 /* AlarmsView.swift in Sources */,
 				F479496D2CE2703A00ACD257 /* StopwatchView.swift in Sources */,
